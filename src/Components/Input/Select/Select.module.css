@@ -1,0 +1,47 @@
+.radioButtonContainer{
+    margin: 0 auto;
+}
+.radioButtonsContainer{
+    display: grid;
+  
+    grid-gap: 1rem;
+    margin: 1rem auto 0;
+}
+.radioButtonLabel{
+    color: white;
+    height: 5rem;
+    width: 10rem;
+    border: 1px solid #3E3F43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color:#23242A;
+    margin: 0 auto;
+}
+.isChecked {
+    border-color: #FA7D09;
+    border-width: 2px;
+}
+
+.radioButtonLabel >input {
+    visibility: hidden;
+    display: none;
+}
+
+.radioButtonLabel > p {
+    margin: 0;
+    font-size: 0.6rem;
+    font-family: 'Poppins-Medium';
+
+}
+.radioButtonLabel > h4 {
+    margin: 0;
+    font-family: 'Poppins-Bold';
+    font-size: 1rem;
+}
+
+.disabled {
+    opacity: 0.3;
+}

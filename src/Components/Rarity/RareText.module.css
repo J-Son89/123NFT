@@ -1,0 +1,17 @@
+.superRare {
+  color: black;
+  background-color: gold;
+  border-radius: 8px;
+  font-size: 4px;
+  border: 1px solid silver;
+}
+.rare {
+  color: black;
+  background-color: aquamarine;
+  border-radius: 8px;
+  font-size: 4px;
+  border: 1px solid silver;
+}
+.other {
+  display: none;
+}

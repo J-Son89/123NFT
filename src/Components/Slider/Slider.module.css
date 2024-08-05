@@ -1,0 +1,19 @@
+.label {
+    color:#fff;
+    font-family: 'Poppins-Medium';
+    font-size: 0.6rem;
+    position: absolute;
+    left: 4px;
+    top: -4px;
+}
+
+.tooltip {
+    color:white;
+    font-family: 'Poppins-Medium';
+    font-size: 0.7rem;
+    background-color: #FA7D09;
+}
+
+.sliderContainer{
+    position: relative;
+}

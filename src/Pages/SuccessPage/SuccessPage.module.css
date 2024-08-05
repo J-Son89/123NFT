@@ -1,0 +1,45 @@
+.successPage {
+  display: flex;
+  align-items: center;
+  scroll-behavior: smooth;
+  padding: 1rem;
+}
+
+.iconTitle{
+  color: white;
+  font-family: "Poppins-Medium";
+  margin: 0;
+}
+
+.titleContainer{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.iconContainer{
+    padding: 0.75rem;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
+    background-color: #71B670;
+}
+
+.successPageContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 10fr;
+  margin-top: 1rem;
+}
+
+.orderDetailsContainer{
+  color: white;
+  font-family: "Poppins-Medium";
+}
+.orange {
+  color: #fa7d09;
+}
+.green{
+  color:#71B670
+}

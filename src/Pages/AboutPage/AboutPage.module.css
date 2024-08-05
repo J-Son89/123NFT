@@ -1,0 +1,22 @@
+.pageContainer {
+  height: 90vh;
+}
+
+.aboutHeader{
+  color: white;
+  font-family: "Poppins-Bold";
+}
+
+.aboutContainer{
+  margin-top: 2rem;
+}
+
+.aboutContent{
+  color:white;
+  font-family: "Poppins-Medium";
+}
+
+.email{
+  color: #fa7d09;
+  text-decoration: none;
+}

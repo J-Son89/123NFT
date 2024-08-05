@@ -1,0 +1,93 @@
+.dropzone {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: #959595;
+  border-style: dashed;
+  background-color: #23242a;
+  border-style: dashed;
+  /* background-color: #fff; */
+  color: #bdbdbd;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+  flex: 1;
+  margin: 1rem;
+}
+
+.dropzone:hover {
+  cursor: pointer;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.success {
+  border: 1px solid green;
+}
+
+.structureWarning {
+  display: flex;
+  margin: auto 3rem;
+  justify-content: center;
+  gap: 1rem;
+}
+.structureWarningText {
+  font: "Poppins";
+  color: white;
+  font-size: 0.75rem;
+}
+
+.modalButton {
+  background-color: transparent;
+  cursor: pointer;
+  font: "Poppins";
+  color: white;
+  font-size: 0.75rem;
+  font-size: 0.75rem;
+  border: none;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.previewGrid{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+.resetBtn {
+  background-color: white;
+  color: #fa7d09;
+  border-radius: 12px;
+  border: none;
+  width: fit-content;
+  min-width: 8rem;
+  height: 1.8rem;
+  padding: 0 1rem;
+  font-family: "Poppins-Bold";
+  /* margin-right: 2rem; */
+  font-size: 0.75rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: Calc(3rem / 2);
+  /* position: absolute; */
+  /* right: 1rem; */
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.resetBtn:hover {
+  cursor: pointer;
+}
+
+.pageContainer {
+  height: 90vh;
+}

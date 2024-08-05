@@ -1,0 +1,19 @@
+
+
+.previewGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  position: relative;
+  /* height: max-content; */
+}
+
+.imagePreviewContainer {
+  display: flex;
+  flex-direction: column;
+}
+/* .imagePreviewTitle {
+  margin: 0;
+  color: white;
+  font-family: Poppins-Medium;
+} */

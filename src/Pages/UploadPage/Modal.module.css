@@ -1,0 +1,281 @@
+.checkListContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr;
+  margin: auto;
+  justify-content: center;
+  background-color: #23242a;
+  height: 100%;
+}
+
+.checkListHeader {
+  font-family: Poppins-Bold;
+  text-decoration: underline;
+  color: #0f0f10;
+  color: white;
+}
+
+.checkListHeaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkListItemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.checkListItemText {
+  font-size: 0.85rem;
+  color: white;
+  margin: 0;
+}
+
+.checkListItemSubText {
+  color: #fa7d09;
+  margin: 0;
+  font-size: 0.6rem;
+}
+
+.svg {
+  height: 1.25rem;
+  width: 1.25rem;
+  z-index: 5;
+}
+.svgContainer {
+  position: relative;
+  display: flex;
+  height: 1.75rem;
+  width: 1.75rem;
+  margin: 0 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.svgDisc {
+  position: absolute;
+  border-radius: 50%;
+  background: black;
+  opacity: 0.1;
+  height: 2rem;
+  width: 2rem;
+  z-index: 0;
+}
+
+.orange {
+  color: #fa7d09;
+  margin: 0;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalStyle {
+}
+
+.projectSampleContainer {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 4px;
+  border: 1px solid white;
+  margin: 1.5rem 3rem 1rem;
+}
+.projectSampleHeaderContainerMain {
+  grid-column: 1/4;
+  display: flex;
+
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectSampleHeaderContainer {
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #fa7d09;
+  margin: 0.5rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.4rem;
+}
+
+.svgSmall {
+  height: 0.7rem;
+  width: 0.7rem;
+  z-index: 5;
+}
+.svgContainerSmall {
+  position: relative;
+  display: flex;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.span2 {
+  grid-column: 2/4;
+}
+
+.svgDiscSmall {
+  border: 2px solid #fa7d09;
+  position: absolute;
+  border-radius: 50%;
+  background: black;
+  opacity: 0.1;
+  height: 1.5rem;
+  width: 1.5rem;
+  z-index: 0;
+}
+
+.layerImg {
+  height: 1.5rem;
+}
+
+.layerName {
+  color: white;
+  font-family: "Poppins-Medium";
+  font-size: 0.55rem;
+  border-bottom: 1px solid white;
+  width: fit-content;
+  margin: 0 auto 4px;
+}
+
+.layerFileName {
+  color: white;
+  font-family: "Poppins-Medium";
+  font-size: 0.55rem;
+  margin: 0;
+}
+
+.folderHeader {
+  font-family: "Poppins-Medium";
+  color: white;
+  font-size: 0.6rem;
+}
+
+.projectStructureHeader {
+  margin: 2rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fileContainer {
+  padding: 3px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .folderHeader {
+    font-size: 0.7rem;
+  }
+
+  .layerName {
+    font-size: 0.7rem;
+  }
+  
+  .layerFileName {
+    font-size: 0.6rem;
+  }
+  .layerImg {
+    height: 1.75rem;
+  }
+  
+  .svgSmall {
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+  .svgContainerSmall {
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+
+  .svgDiscSmall{
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+
+  .checkListItemText {
+    font-size: 0.8rem;
+  }
+
+  .checkListItemSubText {
+    font-size: 0.7rem;
+  }
+  
+  .svg {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+  .svgContainer {
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+  
+  .svgDisc {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .folderHeader {
+    font-size: 0.8rem;
+  }
+  .layerName {
+    font-size: 0.75rem;
+  }
+  
+  .layerFileName {
+    font-size: 0.6rem;
+  }
+  .layerImg {
+    height: 2rem;
+  }
+  
+  .svgSmall {
+    height: 1rem;
+    width: 1rem;
+  }
+  .svgContainerSmall {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .svgDiscSmall{
+    height: 2rem;
+    width: 2rem;
+  }
+  .checkListItemText {
+    font-size: 1rem;
+  }
+  .checkListItemSubText {
+  
+    font-size: 0.8rem;
+  }
+  .svg {
+    height: 2rem;
+    width: 2rem;
+  }
+  .svgContainer {
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .svgDisc {
+    height: 4rem;
+    width: 4rem;
+  }
+}

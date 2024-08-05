@@ -1,0 +1,96 @@
+.genericStepContainer{
+    height: 95vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 2fr 2fr;
+}
+
+.whiteLabel {
+    font: "Poppins";
+    color:white;
+    margin-bottom: 0.65rem;
+}
+
+.orange {
+    color: #FA7D09;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerButtonContainer{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+}
+
+.nextBtn {
+    background-color: white;
+    color: #fa7d09;
+    border-radius: 12px;
+    border: none;
+    width: fit-content;
+    min-width: 8rem;
+    height: 1.8rem;
+    padding: 0 1rem;
+    font-family: "Poppins-Bold";
+    margin-right: 2rem;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: Calc(3rem / 2);
+    position: absolute;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.disabled { 
+    opacity: 0.3;
+}
+
+.nextBtn:hover {
+    cursor: pointer;
+}
+
+
+.previousBtn {
+    background-color: transparent;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 4px;
+    width: 8rem;
+    height: 1.8rem;
+    font-family: "Poppins-Bold";
+    margin-left: 2rem;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: Calc(3rem / 2);
+    position: absolute;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.previousBtn:hover {
+    cursor: pointer;
+}
+
+.subLabel {
+    color: white;
+    font-family: "Poppins-Medium";
+    margin: 0;
+    font-size: 0.8rem;
+  }

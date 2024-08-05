@@ -1,0 +1,42 @@
+.previewImage {
+  height: 3rem;
+  width: 3rem;
+  align-items: center;
+  /* margin: 0 auto; */
+  border: 2px solid white;
+  padding: 1px;
+}
+
+.previewImageContainer {
+  display: grid;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.traitImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.sliderContainer{
+  position: relative;
+}
+
+.rarityConfigurerContainer{
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:  auto;
+  grid-gap: 0.5rem; */
+
+  gap: 1.5vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: 2rem; */
+}
+

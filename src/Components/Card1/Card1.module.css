@@ -1,0 +1,246 @@
+.cardContainer {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+
+  margin: 0;
+  position: relative;
+}
+.card1Container {
+  background-image: url("/public/homePageBackground.png");
+}
+
+.tagLine {
+  color: white;
+  /* width: 100%; */
+  height: fit-content;
+  text-align: left;
+  font: "Poppins";
+  letter-spacing: 0px;
+  font-size: 1.9rem;
+  overflow-wrap: break-word;
+  margin: 1rem 0.5rem 1rem 2rem;
+}
+
+.tagLine2 {
+  width: fit-content;
+  padding-right: 8px;
+  margin: auto;
+}
+
+.arrowContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagLineContainer {
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.orange {
+  color: #fa7d09;
+}
+
+.getStarted {
+  background-color: white;
+  color: #fa7d09;
+  border-radius: 12px;
+  border: none;
+  padding: 4px;
+  width: 12rem;
+  min-height: 2rem;
+  height: auto;
+  font-family: "Poppins-Bold";
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: Calc(4rem / 2);
+}
+
+.helperBox {
+  border-radius: 10px;
+  background-color: #707070;
+  margin: 0 auto;
+  height: 17rem;
+  width: 17em;
+  padding: 12px;
+}
+
+.activeBox {
+  background-color: #fa7d09;
+}
+
+.stepDescription {
+  color: white;
+  font-family: "Poppins-Medium";
+  font-size: 1.20rem;
+}
+.stepNumber {
+  color: white;
+  font-family: "Poppins-Bold";
+  font-size: 1.6rem;
+}
+.svg {
+  height: 2rem;
+  width: 2rem;
+  z-index: 5;
+}
+.svgContainer {
+  position: relative;
+  display: flex;
+  height: 4rem;
+  width: 4rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.svgDisc {
+  position: absolute;
+  border-radius: 50%;
+  background: black;
+  opacity: 0.1;
+  height: 4rem;
+  width: 4rem;
+  z-index: 0;
+}
+
+
+.bulletPoint { 
+  color: white;
+  font-size: 1.25rem;
+}
+.bulletPointContainer{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 4fr 1fr 5fr;
+  margin: 0 1rem;
+}
+
+.bulletPointSVG {
+  position: relative;
+  left: 0;
+  transform: rotate(180deg);
+  top: -40%;
+  width: 3rem;
+}
+
+.murialContainer{
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  position: relative;
+}
+
+.svgContainer{
+  position: relative;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+}
+
+.linkContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:10;
+}
+
+@media only screen and (min-width: 481px) {
+  
+  .tagLine {
+    font-size: 1.75rem;
+    margin: none;
+  }
+
+  .helperBox {
+    height: 10rem;
+    width: 10rem;
+    padding: 22px;
+  }
+
+  .bulletPointContainer{
+    margin: none;
+  }
+
+  
+ 
+}
+
+@media only screen and (min-width: 750px) {
+
+  .getStarted {
+    background-color: white;
+    color: #fa7d09;
+    border-radius: 12px;
+    border: none;
+    padding: 4px;
+    width: 7rem;
+    height: auto;
+    font-family: "Poppins-Bold";
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: Calc(3rem / 2);
+    min-height: auto;
+  }
+
+  .cardContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  
+
+  .tagLineContainer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* .tagLine {
+    font-size: 2.1rem;
+  } */
+
+ 
+  .helperBox {
+    height: 10rem;
+    width: 10rem;
+    padding: 22px;
+  }
+
+  .bulletPoint{
+      width: 6rem;
+  }
+  
+}
+
+
+@media only screen and (min-width: 992px) {
+ 
+  .tagLine {
+    font-size: 2.1rem;
+  }
+  
+  .helperBox {
+    height: 14rem;
+    width: 14rem;
+    padding: 22px;
+  }
+ 
+}
+
+@media only screen and (min-width: 1400px) {
+ 
+  .tagLine {
+    font-size: 2.1rem;
+  }
+ 
+  .helperBox {
+    height: 15rem;
+    width: 15rem;
+    padding: 22px;
+  }
+  
+}

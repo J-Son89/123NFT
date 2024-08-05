@@ -1,0 +1,78 @@
+.labelsMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 0.75rem;
+    width: 100%;
+}   
+
+.selectOption {
+    background: transparent;
+    border: none;
+}
+.selectOptionContainer{
+    border: 1px solid #3E3F43;
+    position: relative;
+}
+
+.selectOptionLabel {
+    color: #FA7D09;
+    left: 10px;
+    top: 4px;
+    position: absolute;
+    font-size: 0.65rem;
+    
+}
+
+.imageContainer {
+    margin: 0 2rem 1rem;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.previewImage{
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+
+
+.imagePreviewContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+
+.layerSorterContainer {
+    display: grid;
+    grid-template-rows: 1fr 3fr ;
+
+    grid-template-columns: 1fr 3fr ;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.layerSorterDiagramContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layerSorterDiagramHeading{
+    color:white;
+    font-family: "Poppins-Medium";
+}
+
+.layerSorterLabel {
+    grid-column: 2 / 3;
+
+}
+.cardsContainer{
+
+}

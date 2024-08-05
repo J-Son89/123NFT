@@ -1,0 +1,34 @@
+.homePage {
+  display: flex;
+  align-items: center;
+  scroll-behavior: smooth;
+  padding: 1rem;
+}
+
+.homePageContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 140vh 160vh 110vh;
+}
+
+
+@media only screen and (min-width: 481px) {
+  /* .homePageContainer {
+    grid-template-rows:64vh 64vh 60vh;
+  } */
+}
+
+@media only screen and (min-width: 750px) {
+  .homePageContainer {
+    grid-template-rows: 50vh 50vh 65vh;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+ 
+}
+
+@media only screen and (min-width: 1400px) {
+  
+}

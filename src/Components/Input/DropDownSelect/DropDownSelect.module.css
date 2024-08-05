@@ -1,0 +1,18 @@
+.selectOption {
+    background: transparent;
+    border: none;
+}
+.selectOptionContainer{
+    border: 1px solid #3E3F43;
+    position: relative;
+    background-color: #23242A;
+}
+
+.selectOptionLabel {
+    color: #FA7D09;
+    left: 10px;
+    top: 4px;
+    position: absolute;
+    font-size: 0.65rem;
+    
+}

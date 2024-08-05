@@ -1,0 +1,114 @@
+.container {
+  /* border: 1px solid black; */
+}
+
+.divider {
+  width: 80%;
+  border: none;
+  border-top: 1px solid white;
+  grid-column: 1/3;
+}
+
+.text {
+}
+
+.collectionPreviewContainer{
+  display: grid;
+  grid-template-columns: 2fr 10fr 2fr;
+  grid-template-rows: 1fr;
+  margin: auto;
+  
+}
+
+.collectionPreviewImagesContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: auto;
+  grid-column-gap: 3rem;
+}
+
+.collectionDetailContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  flex-direction:column;
+}
+
+.collectionDetail{
+  color: white;
+  margin: 0;
+  font-size: 0.60rem;
+  font-family: Poppins-Medium;
+  
+}
+
+.orange {
+  color: #FA7D09;
+  margin: 0;
+}
+.collectionDetailLabelContainer{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+
+}
+
+.numberLabel {
+  font-family: 'Poppins-Bold';
+  color: white;
+  margin: 0 auto;
+  font-size: 0.5rem;
+
+}
+
+.imagePreviewContainer{
+  display:grid;
+}
+
+
+.tableKey {
+  /* font-size: 0.8rem; */
+  font-family: Poppins-Bold;
+  /* color: white; */
+  /* margin: 0; */
+  /* text-align: left; */
+}
+
+.tableText {
+  font-size: 0.8rem;
+  font-family: Poppins-Medium;
+  color: white;
+  margin: 0;
+  text-align: left;
+  margin-left: 2rem;
+  padding: 2px;
+}
+
+.detailsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.2rem;
+  margin: auto;
+
+}
+.right {
+  text-align: right;
+  margin-right: 2rem;
+  margin-left: 0;
+}
+
+.orderSummaryContainer {
+  display: grid;
+  grid-row-gap: 0.5rem;
+  margin-top: 1rem;
+  
+}
+
+.dropdownContainer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

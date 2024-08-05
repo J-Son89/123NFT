@@ -1,0 +1,7 @@
+:root {
+    --MOBILE: 320px;
+    --IPAD: 481px;
+    --LAPTOP: 769px;
+    --LARGE: 992px;
+    --EXTRA-LARGE: 1400px;
+  }
