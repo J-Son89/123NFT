@@ -66,8 +66,7 @@
     ]
   },
   "engines": {
-    "node": "14.18.1",
-    "yarn": ">=1.x"
+    "node": "14.18.1"
   },
   "devDependencies": {}
 }
