@@ -12,3 +12,9 @@ limited demo viewable at:
 https://nft123-2fa9945865bd.herokuapp.com/
 
 limitations as backend etc is not deployed.
+
+Orders Backend Repo:
+https://github.com/J-Son89/123NFTBackend
+
+Image Genberation Repo:
+https://github.com/J-Son89/123NFTGenerator
